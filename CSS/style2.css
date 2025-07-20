@@ -1,0 +1,52 @@
+/* h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+.para{
+    font-size: 25px;
+    color: green;
+} */
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tag Selector */
+h1 {
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+}
+button {
+  color: red;
+}
+/* a{
+  text-decoration: underline !important;
+  color: blue;
+  font-size: 25px;
+} */
+/* Class Selector */
+.para {
+  font-size: 25px;
+  color: green;
+}
+p.jack {
+  font-size: 20px;
+  color: orange;
+}
+/* ID Selector */
+#btn {
+  background-color: yellow;
+  color: black;
+  border-radius: 5px;
+}
+/* Attribute Selector */
+a[href]{
+    color: green;
+    font-size: 40px;
+    text-decoration: none;
+}
