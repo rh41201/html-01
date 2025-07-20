@@ -1,0 +1,25 @@
+.box-1  {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    /* position: absolute;
+    top: 100px;
+    left: 100px; */
+    position: sticky;
+    top: 10px;
+}
+.box-2 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+.child-box {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    /* position: relative; */
+    /* left: 0px;
+    top: 0px; */
+    right: 0px;
+    top: 0px;
+}
